@@ -2,7 +2,7 @@ JBoss Installation/MySQL
 ========================
 
 Setup the datasource
-´´´xml
+```xml
 <datasource jta="true" jndi-name="java:/datasources/TravelDiaryDs" pool-name="TravelDiary" enabled="true" use-java-context="true">
     <connection-url>jdbc:mysql://localhost:3306/travelDiary</connection-url>
     <driver>mysql-connector-java-5.1.25-bin.jar</driver>
@@ -15,4 +15,4 @@ Setup the datasource
         <user-name>root</user-name>
     </security>
 </datasource>
-´´´
+```
