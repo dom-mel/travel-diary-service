@@ -1,0 +1,5 @@
+<persistence>
+    <persistence-unit name="TravelDiaryDS">
+        <jta-data-source>java:/datasources/TravelDiaryDs</jta-data-source>
+    </persistence-unit>
+</persistence>
